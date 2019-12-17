@@ -1,0 +1,19 @@
+SwiftDate-tvOS:
+  project: SwiftDate.xcodeproj
+  sdks:
+  - appletvos
+  - appletvsimulator
+SwiftDate-macOS:
+  project: SwiftDate.xcodeproj
+  sdks:
+  - macosx
+SwiftDate-watchOS:
+  project: SwiftDate.xcodeproj
+  sdks:
+  - watchsimulator
+  - watchos
+SwiftDate-iOS:
+  project: SwiftDate.xcodeproj
+  sdks:
+  - iphonesimulator
+  - iphoneos

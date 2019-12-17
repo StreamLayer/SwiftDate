@@ -1354,6 +1354,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDate.SwiftDate-iOS";
 				PRODUCT_NAME = SwiftDate;
@@ -1376,6 +1377,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDate.SwiftDate-iOS";
 				PRODUCT_NAME = SwiftDate;
 				SKIP_INSTALL = YES;
@@ -1422,6 +1424,7 @@
 				INFOPLIST_FILE = Configs/SwiftDate.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDate.SwiftDate-watchOS";
 				PRODUCT_NAME = SwiftDate;
 				SDKROOT = watchos;
@@ -1445,6 +1448,7 @@
 				INFOPLIST_FILE = Configs/SwiftDate.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDate.SwiftDate-watchOS";
 				PRODUCT_NAME = SwiftDate;
 				SDKROOT = watchos;
@@ -1468,6 +1472,7 @@
 				INFOPLIST_FILE = Configs/SwiftDate.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDate.SwiftDate-tvOS";
 				PRODUCT_NAME = SwiftDate;
 				SDKROOT = appletvos;
@@ -1491,6 +1496,7 @@
 				INFOPLIST_FILE = Configs/SwiftDate.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDate.SwiftDate-tvOS";
 				PRODUCT_NAME = SwiftDate;
 				SDKROOT = appletvos;
@@ -1516,6 +1522,7 @@
 				INFOPLIST_FILE = Configs/SwiftDate.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDate.SwiftDate-macOS";
 				PRODUCT_NAME = SwiftDate;
@@ -1540,6 +1547,7 @@
 				INFOPLIST_FILE = Configs/SwiftDate.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftDate.SwiftDate-macOS";
 				PRODUCT_NAME = SwiftDate;
