@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SwiftDate"
-  s.version      = "6.0.3"
+  s.version      = "6.1.0"
   s.summary      = "The best way to deal with Dates & Time Zones in Swift"
   s.homepage     = "https://github.com/malcommac/SwiftDate.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/malcommac/SwiftDate.git", :tag => s.version.to_s }
   s.source_files = 'Sources/**/*.swift'
   s.frameworks  = "Foundation"
-  s.swift_version = "5.0"
+  s.swift_versions = ['5.0', '5.1']
   s.resources = 'Sources/SwiftDate/Formatters/RelativeFormatter/langs'
 end
